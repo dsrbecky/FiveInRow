@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: piskvorky - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\David\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/piskvorky.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Dokumenty\CPP\_good\piskvorky\piskvorky.cpp"
+"C:\Dokumenty\CPP\_good\piskvorky\piskvorkyDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\David\LOCALS~1\Temp\RSPB9.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/piskvorky.pdb" /machine:I386 /out:"Release/piskvorky.exe"  .\Release\piskvorky.obj .\Release\piskvorkyDlg.obj .\Release\SetupDlg.obj .\Release\StdAfx.obj .\Release\piskvorky.res "
+<h3>Output Window</h3>
+Compiling...
+piskvorky.cpp
+piskvorkyDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/piskvorky.bsc"  .\Release\StdAfx.sbr .\Release\piskvorky.sbr .\Release\piskvorkyDlg.sbr .\Release\SetupDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+piskvorky.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
